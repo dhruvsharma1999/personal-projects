@@ -6,3 +6,4 @@
 
 ## PROJECT ONE:
 ### Technical Documentation Page 
+This project idea is from freeCodeCamp projects. I will be  writing a technical documentation on python, which will cover the history and basics of python. 
