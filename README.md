@@ -5,4 +5,4 @@
 >Well, Mostly the projects will be realted to HTML, CSS, JS and python for the initial projects and after that I will try to include some more projects related to other topics like react, redux, advance CSS animation etc.  
 
 ## PROJECT ONE:
-### Coming soon.....
+### Technical Documentation Page 
