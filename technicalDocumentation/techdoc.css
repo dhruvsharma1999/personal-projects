@@ -17,9 +17,7 @@ body {
   border-right: solid;
   border-color: rgba(0, 22, 22, 0.4);
 }
-body header{
-  font-size: 'Inconsolata', monospace;
-}
+
 
 header {
   color: black;
@@ -27,7 +25,8 @@ header {
   text-align: center;
   font-size: 1.8em;
   font-weight: thin;
-  /* font-size: 'Inconsolata', monospace; */
+  font-family: 'Inconsolata', monospace; 
+  font-size: 2rem;
 }
 
 #main-doc header {
