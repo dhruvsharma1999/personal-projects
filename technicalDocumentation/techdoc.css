@@ -47,6 +47,9 @@ td, th{
   
 
 }
+code{
+  text-align: left;
+}
 
 
 #navbar ul {
