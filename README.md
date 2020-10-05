@@ -8,4 +8,4 @@
 ### Technical Documentation Page 
 This project idea is from freeCodeCamp projects. I will be  writing a technical documentation on python, which will cover the history and basics of python. 
 
-Code for [Techinal Documentation Page]  (https://github.com/dhruvsharma1999/personal-projects/tree/master/technicalDocumentation) is present here.
+Code for [Techinal Documentation Page](https://github.com/dhruvsharma1999/personal-projects/tree/master/technicalDocumentation) is present here.
