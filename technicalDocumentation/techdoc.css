@@ -47,9 +47,6 @@ td, th{
   
 
 }
-code{
-  text-align: left;
-}
 
 
 #navbar ul {
@@ -101,14 +98,21 @@ code {
   display: block;
   text-align: left;
   white-space: pre;
-  position: relative;
+  position: realtive;
   word-break: normal;
   word-wrap: normal;
-  line-height: 2;
-  background-color: #f7f7f7;
-  padding: 15px;
-  margin: 10px;
-  border-radius: 5px;
+  line-height: 1.2;
+  background-color: rgb(213, 255, 252);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  font-family:  'Inconsolata', monospace;
+  font-size: 20px;
+}
+table{
+  background-color:  rgb(213, 255, 252);
+
+  
 }
 
 @media only screen and (max-width: 815px) {
