@@ -11,3 +11,8 @@ This project idea is from freeCodeCamp projects. I will be  writing a technical 
 Code for [Techinal Documentation Page](https://github.com/dhruvsharma1999/personal-projects/tree/master/technicalDocumentation) is present here.
 
 ![](Images/pydoc.png)
+
+
+##PROJECT TWO:
+### Natours Blog 
+This projects basic structure is from udemy's course on advance CSS and Saas. I will try to implement custom features and animations using css and saas.
