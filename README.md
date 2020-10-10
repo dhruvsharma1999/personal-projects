@@ -13,6 +13,6 @@ Code for [Techinal Documentation Page](https://github.com/dhruvsharma1999/person
 ![](Images/pydoc.png)
 
 
-##PROJECT TWO:
+## PROJECT TWO:
 ### Natours Blog 
 This projects basic structure is from udemy's course on advance CSS and Saas. I will try to implement custom features and animations using css and saas.
