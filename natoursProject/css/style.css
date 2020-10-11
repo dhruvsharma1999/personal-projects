@@ -38,6 +38,50 @@ body{
         url(../img/hero.jpg);
     background-size: cover;
     background-position: top;/*header image stays constant at the top when resizing the window*/
+    position: relative;
+
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); /* Importatn - clip-path creates clipping region that sets what part of element should be shown*/
-    
+
+}
+
+/*LECTURE 2 
+1. The easiest way to center anything with  the   
+    transform, top and left properties. */
+.logo-box{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}    
+
+.logo{
+    height: 35px;
+}
+
+.text-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading-primary{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.heading-primary-main{
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
+
+
+}
+
+.heading-primary-sub{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 17.4px;
+
 }
