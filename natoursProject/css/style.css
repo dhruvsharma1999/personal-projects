@@ -62,11 +62,16 @@ body{
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    margin-bottom: 60px;
+    text-align: center;
+    
 }
 
 .heading-primary{
     color: #fff;
     text-transform: uppercase;
+    backface-visibility: hidden;
 }
 
 .heading-primary-main{
@@ -74,6 +79,9 @@ body{
     font-size: 60px;
     font-weight: 400;
     letter-spacing: 35px;
+
+    animation: moveInLeft 1s ease-out;
+   
 
 
 }
@@ -84,4 +92,68 @@ body{
     font-weight: 700;
     letter-spacing: 17.4px;
 
+    animation: moveInRight 1s ease-out;
+}
+/*LECTURE 3
+1. creating CSS animation using @keyframes and the animation poperty*/
+
+@keyframes moveInLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px)
+    }
+
+    80%{
+        transform: translateX(10px);
+
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}
+/* @keyframes css controld the intermediate steps in css animation sequence by defining styles for keyframs or waypoints.*/
+
+@keyframes moveInRight {
+    0%{
+        opacity: 0;
+        transform: translateX(100px)
+    }
+
+    80%{
+        transform: translateX(-10px);
+
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}
+
+/*LECTURE 4
+    Building a complex animated button
+    1. what pseudo-elements are pseudo-classes are
+    2. How and why to use ::after pseudo-element
+    3. How to create a creative hover animation effect using the transition property
+
+*/
+
+.btn:link,
+.btn:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    display: inline-block;
+ 
+}
+
+
+
+.btn-white{
+    background-color: #fff;
+    color: #777
 }
