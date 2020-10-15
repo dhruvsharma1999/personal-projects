@@ -16,3 +16,7 @@ Code for [Techinal Documentation Page](https://github.com/dhruvsharma1999/person
 ## PROJECT TWO:
 ### Natours Blog 
 This projects basic structure is from udemy's course on advance CSS and Saas. I will try to implement custom features and animations using css and saas.
+
+Code for [Natours Project.](https://github.com/dhruvsharma1999/personal-projects/tree/master/natoursProject)
+
+![](Images/samplenat.png)
