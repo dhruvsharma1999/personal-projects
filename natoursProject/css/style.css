@@ -10,22 +10,28 @@ Dark green: #28b485
 */
  
 
-* {
+*,
+*::after,
+*::before {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing: inherit;
+    
 }/* 1. basic reset usng universal selector
     browser adds some padding to all the element as default.
     we are selecting all the elements and setting margin and padding to 0, to start off clean*/
-
+html{
+    font-size: 62.5%;
+}
 
 body{
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 1.7;
     color: #777;
-    padding: 30px;
+    padding: 3rem;
+    box-sizing: border-box;
 }/* 2. set project wide font definitions*/
 
 
@@ -49,12 +55,12 @@ body{
     transform, top and left properties. */
 .logo-box{
     position: absolute;
-    top: 40px;
-    left: 40px;
+    top: 4rem;
+    left: 4rem;
 }    
 
 .logo{
-    height: 35px;
+    height: 3.5rem;
 }
 
 .text-box{
@@ -63,7 +69,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 
-    margin-bottom: 60px;
+    margin-bottom: 6rem;
     text-align: center;
     
 }
@@ -72,14 +78,14 @@ body{
     color: #fff;
     text-transform: uppercase;
     backface-visibility: hidden;
-    margin-bottom: 60px;
+    margin-bottom: 6rem;
 }
 
 .heading-primary-main{
     display: block;
-    font-size: 60px;
+    font-size: 6rem;
     font-weight: 400;
-    letter-spacing: 35px;
+    letter-spacing: 3.5rem;
 
     animation: moveInLeft 1s ease-out;
    
@@ -89,9 +95,9 @@ body{
 
 .heading-primary-sub{
     display: block;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
-    letter-spacing: 17.4px;
+    letter-spacing: 1.75rem;
 
     animation: moveInRight 1s ease-out;
 }
@@ -101,11 +107,11 @@ body{
 @keyframes moveInLeft {
     0%{
         opacity: 0;
-        transform: translateX(-100px)
+        transform: translateX(-10rem)
     }
 
     80%{
-        transform: translateX(10px);
+        transform: translateX(1rem);
 
     }
 
@@ -120,11 +126,11 @@ body{
 @keyframes moveInRight {
     0%{
         opacity: 0;
-        transform: translateX(100px)
+        transform: translateX(10rem)
     }
 
     80%{
-        transform: translateX(-10px);
+        transform: translateX(-1rem);
 
     }
 
@@ -145,7 +151,7 @@ body{
 @keyframes moveInBottom {
     0%{
         opacity: 0;
-        transform: translateY(30px)
+        transform: translateY(3rem)
     }
 
 
@@ -160,10 +166,12 @@ body{
 .btn:visited {
     text-decoration: none;
     text-transform: uppercase;
-    padding: 15px 40px;
+    padding: 1.5rem 4rem;
     display: inline-block;
-    border-radius: 100px;
+    border-radius: 10rem;
     transition: all .2s;
+    position: relative;
+    font-size: 1.6rem;
  
 }
 .btn:hover{
