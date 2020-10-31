@@ -2,144 +2,105 @@
 1. basic reset using the universal selector
 2. how to set proejct wide font definitions
 3. how to clip parts of elements using clip-path*/
-
 /* COLORS:
 Light green: #7ed56f
 Medium green: #55c57a
 Dark green: #28b485
 */
- 
-
 *,
 *::after,
 *::before {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: inherit;
-    
-}/* 1. basic reset usng universal selector
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit; }
+
+/* 1. basic reset usng universal selector
     browser adds some padding to all the element as default.
     we are selecting all the elements and setting margin and padding to 0, to start off clean*/
-html{
-    font-size: 62.5%;
-}
+html {
+  font-size: 62.5%; }
 
-body{
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    /* font-size: 16px; */
-    line-height: 1.7;
-    color: #777;
-    padding: 3rem;
-    box-sizing: border-box;
-}/* 2. set project wide font definitions*/
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  /* font-size: 16px; */
+  line-height: 1.7;
+  color: #777;
+  padding: 3rem;
+  box-sizing: border-box; }
 
-
-.header{
-    height: 95vh;
-    background-image: linear-gradient(
-        to right bottom, 
-        rgba(126, 213, 111, 0.8), 
-        rgba(40, 180, 131, 0.8) ), 
-        url(../img/hero.jpg);
-    background-size: cover;
-    background-position: top;/*header image stays constant at the top when resizing the window*/
-    position: relative;
-
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); /* Importatn - clip-path creates clipping region that sets what part of element should be shown*/
-
-}
+/* 2. set project wide font definitions*/
+.header {
+  height: 95vh;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
+  background-size: cover;
+  background-position: top;
+  /*header image stays constant at the top when resizing the window*/
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  /* Importatn - clip-path creates clipping region that sets what part of element should be shown*/ }
 
 /*LECTURE 2 
 1. The easiest way to center anything with  the   
     transform, top and left properties. */
-.header__logo-box{
-    position: absolute;
-    top: 4rem;
-    left: 4rem;
-}    
+.header__logo-box {
+  position: absolute;
+  top: 4rem;
+  left: 4rem; }
 
-.header__logo{
-    height: 3.5rem;
-}
+.header__logo {
+  height: 3.5rem; }
 
-.header__text-box{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.header__text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 6rem;
+  text-align: center; }
 
-    margin-bottom: 6rem;
-    text-align: center;
-    
-}
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 6rem; }
 
-.heading-primary{
-    color: #fff;
-    text-transform: uppercase;
-    backface-visibility: hidden;
-    margin-bottom: 6rem;
-}
+.heading-primary--main {
+  display: block;
+  font-size: 6rem;
+  font-weight: 400;
+  letter-spacing: 3.5rem;
+  animation: moveInLeft 1s ease-out; }
 
-.heading-primary--main{
-    display: block;
-    font-size: 6rem;
-    font-weight: 400;
-    letter-spacing: 3.5rem;
+.heading-primary--sub {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1.75rem;
+  animation: moveInRight 1s ease-out; }
 
-    animation: moveInLeft 1s ease-out;
-   
-
-
-}
-
-.heading-primary--sub{
-    display: block;
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 1.75rem;
-
-    animation: moveInRight 1s ease-out;
-}
 /*LECTURE 3
 1. creating CSS animation using @keyframes and the animation poperty*/
-
 @keyframes moveInLeft {
-    0%{
-        opacity: 0;
-        transform: translateX(-10rem)
-    }
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem); }
+  80% {
+    transform: translateX(1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
 
-    80%{
-        transform: translateX(1rem);
-
-    }
-
-    100%{
-        opacity: 1;
-        transform: translate(0);
-    }
-
-}
 /* @keyframes css controld the intermediate steps in css animation sequence by defining styles for keyframs or waypoints.*/
-
 @keyframes moveInRight {
-    0%{
-        opacity: 0;
-        transform: translateX(10rem)
-    }
-
-    80%{
-        transform: translateX(-1rem);
-
-    }
-
-    100%{
-        opacity: 1;
-        transform: translate(0);
-    }
-
-}
+  0% {
+    opacity: 0;
+    transform: translateX(10rem); }
+  80% {
+    transform: translateX(-1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
 
 /*LECTURE 4
     Building a complex animated button
@@ -149,46 +110,36 @@ body{
 
 */
 @keyframes moveInBottom {
-    0%{
-        opacity: 0;
-        transform: translateY(3rem)
-    }
-
-
-    100%{
-        opacity: 1;
-        transform: translate(0);
-    }
-
-}
+  0% {
+    opacity: 0;
+    transform: translateY(3rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
 
 .btn:link,
 .btn:visited {
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 1.5rem 4rem;
-    display: inline-block;
-    border-radius: 10rem;
-    transition: all .2s;
-    position: relative;
-    font-size: 1.6rem;
- 
-}
-.btn:hover{
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
-}
-.btn:active{
-    transform: translateY(-1px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-}
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all .2s;
+  position: relative;
+  font-size: 1.6rem; }
 
-.btn--white{
-    background-color: #fff;
-    color: #777
-}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
 
-.btn--animated{
-    animation: moveInBottom .5 ease-out .75s;
-    animation-fill-mode: backwards;
-}
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+
+.btn--white {
+  background-color: #fff;
+  color: #777; }
+
+.btn--animated {
+  animation: moveInBottom .5 ease-out .75s;
+  animation-fill-mode: backwards; }
