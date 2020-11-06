@@ -16,6 +16,8 @@ Code for [Techinal Documentation Page](https://github.com/dhruvsharma1999/person
 ### Javascript Score Keeper
 A simple score keeper implemented using javascript and bulma, a css library.
 
+Code for [Score Keeper.](https://github.com/dhruvsharma1999/personal-projects/tree/master/scoreChecker)
+
 ![](Images/tekss.png)
 
 ## PROJECT THREE:
