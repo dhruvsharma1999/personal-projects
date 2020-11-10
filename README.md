@@ -22,7 +22,7 @@ Code for [Score Keeper.](https://github.com/dhruvsharma1999/personal-projects/tr
 
 ## PROJECT THREE:
 ### Natours Blog 
-This projects basic structure is from udemy's course on advance CSS and Saas. I will try to implement custom features and animations using css and saas.
+This projects basic structure is from udemy's course on advance CSS and Saas. I will try to implement custom features and animations using css, sass and other css libraries.
 
 Code for [Natours Project.](https://github.com/dhruvsharma1999/personal-projects/tree/master/natoursProject)
 
