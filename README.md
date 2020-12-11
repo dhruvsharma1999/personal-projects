@@ -4,7 +4,7 @@
 **What will the projects be about ?**
 >Well, Mostly the projects will be realted to HTML, CSS, JS and python for the initial projects and after that I will try to include some more projects related to other topics like react, redux, advance CSS animation etc.  
 
-## PROJECT ONE:
+## PROJECT 1
 ### Technical Documentation Page 
 This project idea is from freeCodeCamp projects. I will be  writing a technical documentation on python, which will cover the history and basics of python. 
 
@@ -12,7 +12,7 @@ Code for [Techinal Documentation Page](https://github.com/dhruvsharma1999/person
 
 ![](Images/pydoc.png)
 
-## PROJECT TWO:
+## PROJECT 2
 ### Javascript Score Keeper
 A simple score keeper implemented using javascript and bulma, a css library.
 
@@ -20,9 +20,14 @@ Code for [Score Keeper.](https://github.com/dhruvsharma1999/personal-projects/tr
 
 ![](Images/tekss.png)
 
-## PROJECT THREE:
+## PROJECT 3
+### Yelp Camp
+This projects basic structure is from udemy's course on full stack development by Colt Steele. I will try to implement custom features and animations.
+
+Code for [Yelp Camp.](https://github.com/dhruvsharma1999/personal-projects/tree/master/yelpcamp)
+## PROJECT 4
 ### Natours Blog 
-This projects basic structure is from udemy's course on advance CSS and Saas. I will try to implement custom features and animations using css, sass and other css libraries.
+This projects basic structure is from udemy's course on advance CSS and Saas. I will try to implement custom features and animation.
 
 Code for [Natours Project.](https://github.com/dhruvsharma1999/personal-projects/tree/master/natoursProject)
 

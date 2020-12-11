@@ -1,0 +1,11 @@
+{
+    "name": "My first Extension",
+    "description": "Shows a menu item",
+    "version": "1",
+    "permissions": ["contextMenus","activeTab"],
+    "background": {
+        "scripts": ["filename.js"]
+    },
+    "manifest_version": 2
+
+}
