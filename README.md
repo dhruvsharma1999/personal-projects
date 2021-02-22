@@ -32,3 +32,16 @@ This projects basic structure is from udemy's course on advance CSS and Saas. I 
 Code for [Natours Project.](https://github.com/dhruvsharma1999/personal-projects/tree/master/natoursProject)
 
 ![](Images/samplenat.png)
+## PROJECT 5
+### Background Color
+
+
+Code for [Background Color.](https://github.com/dhruvsharma1999/personal-projects/tree/master/change-background)
+
+
+
+## PROJECT 6
+### Simple Counter 
+
+Code for [Simple Counter.](https://github.com/dhruvsharma1999/personal-projects/tree/master/counter)
+

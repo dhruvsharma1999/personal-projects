@@ -1,7 +1,7 @@
 const colors = ["green", "red", "rgba(133,122,200)", "#f15025"];
 
 // selecting button element
-const btn = document.getElementById("btn");
+const btn = document.getElementById("#btn");
 // selecting color element
 const color = document.querySelector(".color");
 
