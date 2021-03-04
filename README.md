@@ -55,7 +55,7 @@ Code for [Simple Counter.](https://github.com/dhruvsharma1999/personal-projects/
 
 Code for [Simple Counter.](https://github.com/dhruvsharma1999/personal-projects/tree/master/reviews)
 
-## PROJECT 7
+## PROJECT 8
 
 ### Responsive HTML, CSS Blog
 
