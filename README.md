@@ -60,3 +60,9 @@ Code for [Simple Counter.](https://github.com/dhruvsharma1999/personal-projects/
 ### Responsive HTML, CSS Blog
 
 Code for [Simple Counter.](https://github.com/dhruvsharma1999/personal-projects/tree/master/responsiveWebsiteCss)
+
+## PROJECT 9
+
+### Sidebar toggeling
+
+Code for [Sidebar toggle.](https://github.com/dhruvsharma1999/personal-projects/tree/master/sidebar)
