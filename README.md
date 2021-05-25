@@ -19,3 +19,4 @@
 | 09    | Responsive HTML, CSS Blog    | [code](https://github.com/dhruvsharma1999/personal-projects/tree/master/responsiveWebsiteCss)                                                      |
 | 10    | Sidebar Toggeling            | [code](https://github.com/dhruvsharma1999/personal-projects/tree/master/sidebar)                                                                   |
 | 11    | Job Portal                   | [code](https://github.com/dhruvsharma1999/personal-projects/tree/master/my-jobs-js-appr) / [Live](https://my-job-squareboat-task-app.netlify.app/) |
+| 12    | Side Bar                     | [code](https://github.com/dhruvsharma1999/personal-projects/tree/master/sidebar)                                                                   |
