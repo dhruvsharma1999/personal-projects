@@ -11,4 +11,4 @@ const tip = billValue * tipPercent;
 console.log(`Your bill Value is: ${billValue}
 Your Tip percent: ${tipPercent}
 =======================
-Your Total Bill Amount is ${billValue + tip}`);
+Your Total Bill Amount is 💲 ${billValue + tip}`);
