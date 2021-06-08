@@ -9,3 +9,7 @@ body {
 para-text {
   font-size: 2rem;
 }
+
+.link {
+  text-decoration: none;
+}
